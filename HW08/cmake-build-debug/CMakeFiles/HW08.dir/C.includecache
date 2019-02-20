@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/skodaj/ownCloud/cvut/zs1819/PRP/PRP_ZS18/noNTB/HW08/main.c
+stdio.h
+/home/skodaj/ownCloud/cvut/zs1819/PRP/PRP_ZS18/noNTB/HW08/stdio.h
+stdlib.h
+/home/skodaj/ownCloud/cvut/zs1819/PRP/PRP_ZS18/noNTB/HW08/stdlib.h
+string.h
+/home/skodaj/ownCloud/cvut/zs1819/PRP/PRP_ZS18/noNTB/HW08/string.h
+queue.h
+/home/skodaj/ownCloud/cvut/zs1819/PRP/PRP_ZS18/noNTB/HW08/queue.h
+
+/home/skodaj/ownCloud/cvut/zs1819/PRP/PRP_ZS18/noNTB/HW08/queue.h
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+

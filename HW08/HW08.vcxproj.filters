@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Zdrojové soubory">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Hlavičkové soubory">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Soubory zdrojů">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{f9f0ffcf-5a7c-4172-8ebb-15deb6a86e7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\man">
+      <UniqueIdentifier>{053a7d53-0b5f-4b23-ae4e-88f213ecf7fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\opt">
+      <UniqueIdentifier>{9722ed24-e1d1-4545-9071-5e698b7975ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="compile" />
+    <None Include="Makefile" />
+    <None Include="program" />
+    <None Include="queue.bck.zip" />
+    <None Include="queue.c.1" />
+    <None Include="data\man\pub01-m.err">
+      <Filter>data\man</Filter>
+    </None>
+    <None Include="data\man\pub01-m.in">
+      <Filter>data\man</Filter>
+    </None>
+    <None Include="data\man\pub01-m.out">
+      <Filter>data\man</Filter>
+    </None>
+    <None Include="data\man\pub02-m.err">
+      <Filter>data\man</Filter>
+    </None>
+    <None Include="data\man\pub02-m.in">
+      <Filter>data\man</Filter>
+    </None>
+    <None Include="data\man\pub02-m.out">
+      <Filter>data\man</Filter>
+    </None>
+    <None Include="data\man\pub03-m.err">
+      <Filter>data\man</Filter>
+    </None>
+    <None Include="data\man\pub03-m.in">
+      <Filter>data\man</Filter>
+    </None>
+    <None Include="data\man\pub03-m.out">
+      <Filter>data\man</Filter>
+    </None>
+    <None Include="data\man\pub04-m.err">
+      <Filter>data\man</Filter>
+    </None>
+    <None Include="data\man\pub04-m.in">
+      <Filter>data\man</Filter>
+    </None>
+    <None Include="data\man\pub04-m.out">
+      <Filter>data\man</Filter>
+    </None>
+    <None Include="data\opt\pub01-o.err">
+      <Filter>data\opt</Filter>
+    </None>
+    <None Include="data\opt\pub01-o.in">
+      <Filter>data\opt</Filter>
+    </None>
+    <None Include="data\opt\pub01-o.out">
+      <Filter>data\opt</Filter>
+    </None>
+    <None Include="b0b36prp-hw08.zip" />
+    <None Include="b0b36prp-hw08-genref" />
+    <None Include="b0b36prp-hw08-test" />
+    <None Include="generate_solutions.sh" />
+    <None Include="hw06-b0b36prp" />
+    <None Include="hw06-b0b36prp-brute.zip" />
+    <None Include="test.sh" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Zdrojové soubory</Filter>
+    </ClCompile>
+    <ClCompile Include="queue.c">
+      <Filter>Zdrojové soubory</Filter>
+    </ClCompile>
+    <ClCompile Include="q.c">
+      <Filter>Zdrojové soubory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="queue.h">
+      <Filter>Hlavičkové soubory</Filter>
+    </ClInclude>
+    <ClInclude Include="queue.log.h">
+      <Filter>Hlavičkové soubory</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libqueue.so" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="queue.o" />
+  </ItemGroup>
+</Project>

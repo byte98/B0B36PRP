@@ -1,0 +1,14 @@
+﻿  in.c
+\\192.168.144.128\owncloud\cvut\zs1819\prp\prp_zs18\cv02\in.c(7): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: viz deklarace: scanf
+  program0.c
+  program1.c
+  program2.c
+  program3.c
+  program4.c
+\\192.168.144.128\owncloud\cvut\zs1819\prp\prp_zs18\cv02\program4.c(7): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: viz deklarace: scanf
+  out.c
+\\192.168.144.128\owncloud\cvut\zs1819\prp\prp_zs18\cv02\out.c(7): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: viz deklarace: scanf
+  Generování kódu...

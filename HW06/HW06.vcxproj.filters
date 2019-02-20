@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Zdrojové soubory">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Hlavičkové soubory">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Soubory zdrojů">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{05e958a7-5a6a-4612-881c-439cbbfb6112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\man">
+      <UniqueIdentifier>{6322c728-ca6b-43a0-b764-f2d2de226557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\opt">
+      <UniqueIdentifier>{21fb0f99-f5f3-46a6-8dae-62298bffcfb0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Zdrojové soubory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+    <None Include="program" />
+    <None Include="data\opt\pub01-o.err">
+      <Filter>data\opt</Filter>
+    </None>
+    <None Include="data\opt\pub01-o.in">
+      <Filter>data\opt</Filter>
+    </None>
+    <None Include="data\opt\pub01-o.out">
+      <Filter>data\opt</Filter>
+    </None>
+    <None Include="data\opt\pub02-o.err">
+      <Filter>data\opt</Filter>
+    </None>
+    <None Include="data\opt\pub02-o.in">
+      <Filter>data\opt</Filter>
+    </None>
+    <None Include="data\opt\pub02-o.out">
+      <Filter>data\opt</Filter>
+    </None>
+    <None Include="data\opt\pub03-o.err">
+      <Filter>data\opt</Filter>
+    </None>
+    <None Include="data\opt\pub03-o.in">
+      <Filter>data\opt</Filter>
+    </None>
+    <None Include="data\opt\pub03-o.out">
+      <Filter>data\opt</Filter>
+    </None>
+    <None Include="data\opt\pub04-o.err">
+      <Filter>data\opt</Filter>
+    </None>
+    <None Include="data\opt\pub04-o.in">
+      <Filter>data\opt</Filter>
+    </None>
+    <None Include="data\opt\pub04-o.out">
+      <Filter>data\opt</Filter>
+    </None>
+    <None Include="data\opt\pub05-o.err">
+      <Filter>data\opt</Filter>
+    </None>
+    <None Include="data\opt\pub05-o.in">
+      <Filter>data\opt</Filter>
+    </None>
+    <None Include="data\opt\pub05-o.out">
+      <Filter>data\opt</Filter>
+    </None>
+    <None Include="data\opt\pub06-o.err">
+      <Filter>data\opt</Filter>
+    </None>
+    <None Include="data\opt\pub06-o.in">
+      <Filter>data\opt</Filter>
+    </None>
+    <None Include="data\opt\pub06-o.out">
+      <Filter>data\opt</Filter>
+    </None>
+    <None Include="data\opt\pub07-o.err">
+      <Filter>data\opt</Filter>
+    </None>
+    <None Include="data\opt\pub07-o.in">
+      <Filter>data\opt</Filter>
+    </None>
+    <None Include="data\opt\pub07-o.out">
+      <Filter>data\opt</Filter>
+    </None>
+    <None Include="data\opt\pub08-o.err">
+      <Filter>data\opt</Filter>
+    </None>
+    <None Include="data\opt\pub08-o.in">
+      <Filter>data\opt</Filter>
+    </None>
+    <None Include="data\opt\pub08-o.out">
+      <Filter>data\opt</Filter>
+    </None>
+    <None Include="data\opt\pub09-o.err">
+      <Filter>data\opt</Filter>
+    </None>
+    <None Include="data\opt\pub09-o.in">
+      <Filter>data\opt</Filter>
+    </None>
+    <None Include="data\opt\pub09-o.out">
+      <Filter>data\opt</Filter>
+    </None>
+    <None Include="data\man\pub01-m.err">
+      <Filter>data\man</Filter>
+    </None>
+    <None Include="data\man\pub01-m.in">
+      <Filter>data\man</Filter>
+    </None>
+    <None Include="data\man\pub01-m.out">
+      <Filter>data\man</Filter>
+    </None>
+    <None Include="data\man\pub02-m.err">
+      <Filter>data\man</Filter>
+    </None>
+    <None Include="data\man\pub02-m.in">
+      <Filter>data\man</Filter>
+    </None>
+    <None Include="data\man\pub02-m.out">
+      <Filter>data\man</Filter>
+    </None>
+    <None Include="data\man\pub03-m.err">
+      <Filter>data\man</Filter>
+    </None>
+    <None Include="data\man\pub03-m.in">
+      <Filter>data\man</Filter>
+    </None>
+    <None Include="data\man\pub03-m.out">
+      <Filter>data\man</Filter>
+    </None>
+    <None Include="data\man\pub04-m.err">
+      <Filter>data\man</Filter>
+    </None>
+    <None Include="data\man\pub04-m.in">
+      <Filter>data\man</Filter>
+    </None>
+    <None Include="data\man\pub04-m.out">
+      <Filter>data\man</Filter>
+    </None>
+    <None Include="data\man\pub05-m.err">
+      <Filter>data\man</Filter>
+    </None>
+    <None Include="data\man\pub05-m.in">
+      <Filter>data\man</Filter>
+    </None>
+    <None Include="data\man\pub05-m.out">
+      <Filter>data\man</Filter>
+    </None>
+    <None Include="data\man\pub06-m.err">
+      <Filter>data\man</Filter>
+    </None>
+    <None Include="data\man\pub06-m.in">
+      <Filter>data\man</Filter>
+    </None>
+    <None Include="data\man\pub06-m.out">
+      <Filter>data\man</Filter>
+    </None>
+    <None Include="data\man\pub07-m.err">
+      <Filter>data\man</Filter>
+    </None>
+    <None Include="data\man\pub07-m.in">
+      <Filter>data\man</Filter>
+    </None>
+    <None Include="data\man\pub07-m.out">
+      <Filter>data\man</Filter>
+    </None>
+    <None Include="data\man\pub08-m.err">
+      <Filter>data\man</Filter>
+    </None>
+    <None Include="data\man\pub08-m.in">
+      <Filter>data\man</Filter>
+    </None>
+    <None Include="data\man\pub08-m.out">
+      <Filter>data\man</Filter>
+    </None>
+    <None Include="data\man\pub09-m.err">
+      <Filter>data\man</Filter>
+    </None>
+    <None Include="data\man\pub09-m.in">
+      <Filter>data\man</Filter>
+    </None>
+    <None Include="data\man\pub09-m.out">
+      <Filter>data\man</Filter>
+    </None>
+  </ItemGroup>
+</Project>

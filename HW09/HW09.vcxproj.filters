@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Zdrojové soubory">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Hlavičkové soubory">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Soubory zdrojů">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{dce2ba33-efb3-4438-8d25-3861faaa3e37}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="graph.h">
+      <Filter>Hlavičkové soubory</Filter>
+    </ClInclude>
+    <ClInclude Include="test\graph.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="colors.h">
+      <Filter>Hlavičkové soubory</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="test\bin2txt.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\graph.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\graph_creator.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\txt2bin.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="g.c">
+      <Filter>Zdrojové soubory</Filter>
+    </ClCompile>
+    <ClCompile Include="g_debug.c">
+      <Filter>Zdrojové soubory</Filter>
+    </ClCompile>
+    <ClCompile Include="graph.c">
+      <Filter>Zdrojové soubory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="test\Makefile">
+      <Filter>test</Filter>
+    </None>
+    <None Include="test\test.sh">
+      <Filter>test</Filter>
+    </None>
+    <None Include="b0b36prp-hw09.zip" />
+    <None Include="g" />
+    <None Include="graph" />
+    <None Include="HW09.zip" />
+    <None Include="program" />
+    <None Include="save.bin">
+      <Filter>Soubory zdrojů</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="save.txt" />
+    <Text Include="test.txt" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,2 @@
+CMakeLists.txt not found in C:\Users\skoda\ownCloud\cvut\zs1718\prp\hw\05
+Environment (MinGW/Cygwin) is not selected
